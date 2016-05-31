@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+		<!-- BootStrap CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+
+
+		<title>
+			Sound-Splash Inc.
+		</title>
+
+		<!-- JQuery UI Theme Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	  	<!--<script type="text/javascript" src="assets/javascript/jquery-ui.min.js"></script>-->
+	  
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+			<!-- Firebase Reference -->
+	<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	
+	</head>
+	<body>
+
+	<!-- JQuery UI dialog boxes -->
+	<div id="errNoArtist" class="errorDiags" title="Artist Not Found">Artist not found. Please try again later.</div>
+
+		<header>
+			<h1 class="masthead">soundsplash</h1>
+		</header>
+		<div class="container wrapper">
+			<div id="infoCols" class="row">
+
+			  <div id="main">
+				<div class="jumbotron">
+					<h1 class="animated infinite bounce">Search an Artist</h1>
+					<input type="text" id="search" name="Search">
+					<br>
+					<button type="button" id="searchButton" class="btn btn-default">search</button>
+				</div>
+				<h3>Most Recent Searches:</h3>
+	  			<div id="contentBody" class="col-md-12">Content goes here!</div>
+	  		  </div>	
+
+	  		  <div id="pg2">
+	  			<div class="row">
+	  				<div id="artistPic">Artist picture goes here!</div>
+	  				<div id="wikiBody" class="col-sm-7"><h2><span class="glyphicon glyphicon-hand-down"></span> Buy Tickets Here <span class="glyphicon glyphicon-hand-down"></span></h2></div>
+	  			</div>
+	  			
+	  			<div class="row">
+	  			     <div id="youTubeBox" class="col-md-3"><img src="assets/images/youtubegrey1b.png"></div>
+	   	     		 <div id="googleMapsBox" class="col-md-9">Content goes here!</div>
+	   	     	</div>
+			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="push" class="col-md-12"></div>
+		</div>
+		<div class="footer navbar-fixed-bottom">
+			<img class="ssLogo" src="assets/images/SoundSplash_white.png">
+		</div>
+
+		<!-- External JavaScript file -->
+		<script src="assets/javascript/app.js"></script>
+
+		<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzU3_r7MMhIb1Hrp6V79ilLOc9nASDhc0&callback=initMap" async defer></script>-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzU3_r7MMhIb1Hrp6V79ilLOc9nASDhc0"></script>
+	</body>
+</html>

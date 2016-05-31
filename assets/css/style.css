@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Texta-Black;
+    src: url('../fonts/Texta-Black.otf');
+}
+@font-face {
+	font-family: Helvetica;
+    src: url('../fonts/Helvetica.otf');
+}
+html, body {
+	height: 100%;
+}
+body {
+	background-image: url('../images/light_gray_pattern_bkgd.jpg');
+	font-family: 'Helvetica';
+}
+header {
+	margin: 0;
+	padding: 0.5%;
+	text-align: center;
+	color: whitesmoke;
+	background: linear-gradient(to bottom, #2A5BBC, #72CFEC);
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+	border-bottom: 3px solid MediumSpringGreen;
+}
+h1 {
+	margin-top: 0;
+  	text-shadow: 0 1px 0 #ccc,
+       0 2px 0 #c9c9c9,
+       0 3px 0 #bbb,
+       0 4px 0 #b9b9b9,
+       0 5px 0 #aaa,
+       0 6px 1px rgba(0,0,0,.1),
+       0 0 5px rgba(0,0,0,.1),
+       0 1px 3px rgba(0,0,0,.3),
+       0 3px 5px rgba(0,0,0,.2),
+       0 5px 10px rgba(0,0,0,.25),
+       0 10px 10px rgba(0,0,0,.2),
+       0 20px 20px rgba(0,0,0,.15);
+}
+h3 {
+	font-family: 'Helvetica';
+}
+.masthead {
+	font-size: 30px;
+	font-family: 'Texta-Black';
+}
+.ssLogo {
+	max-width: 80px;
+	max-height: 80px;
+}
+.jumbotron {
+	margin: 1%;
+	margin-top: 3%;
+	font-family: 'Helvetica';
+	color: DarkSlateGray;
+	background-color: aliceblue;
+	background-image: url('../images/scanline_pattern.png');
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+}
+#searchButton {
+	margin: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: whitesmoke;
+	font-style: italic;
+	background: linear-gradient(to bottom, #2A5BBC, #72CFEC);
+	border: 3px solid MediumSpringGreen;
+}
+#searchButton:hover {
+	background: linear-gradient(to bottom, #2A5BBC, #72CFEC);
+}
+#infoCols {
+	align-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+#artistPic {
+	background-color: aliceblue;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+	margin-left: 2.5%;
+	/*margin-right: 2%;*/
+	overflow: auto;
+	padding: 5px;
+	float: left;
+	margin-top: 2%;
+}
+#wikiBody {
+	background-color: aliceblue;
+	color: DarkSlateGray;
+	text-align: center;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+	float: right;
+	margin-top: 2%;
+}
+#contentBody {
+	background-color: aliceblue;
+	color: DarkSlateGray;
+	text-align: center;
+	width: 98%;
+	height: auto;
+	margin: 1%;
+	border-radius: 4px;
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+}
+#youTubeBox {
+	background-color: aliceblue;
+	height: auto;
+	margin: 1% 1% 1% 2.5%;
+	color: DarkSlateGray;
+	text-align: center;
+	border-radius: 4px;
+	float: left;
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+	padding-left: 0;
+	padding-right: 0;
+}
+#youTubeBox img {
+	border-radius: 4px;
+}
+#googleMapsBox {
+	background-color: aliceblue;
+	text-align: center;
+	width: 45%;
+	height: 300px;
+	margin: 1%;
+	margin-left: 4%;
+	border-radius: 4px;
+	/*float: right;*/
+	box-shadow: 0px 1px 10px 0px rgba(186,186,186,1);
+}
+.footer {
+	background: linear-gradient(to bottom, #72CFEC, #2A5BBC);
+	border-top: 3px solid MediumSpringGreen;
+	padding: 0.3%;
+	text-align: center;
+}
+#push {
+	height: 100px;
+	width: 100%;
+}
+.errorDiags {
+	display: none;
+}
+
+#pg2 {display: none;}
