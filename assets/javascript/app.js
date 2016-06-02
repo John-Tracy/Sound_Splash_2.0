@@ -2,6 +2,7 @@ var infoHold = {
 	
 	recentSearch: [],
 	dataBaseRef: new Firebase('https://sound-splash.firebaseio.com/searches'),
+	userDataBase: new Firebase('https://sound-splash.firebaseio.com/users'),
 
 
 
